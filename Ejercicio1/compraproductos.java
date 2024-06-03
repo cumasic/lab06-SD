@@ -12,7 +12,7 @@ import javax.jws.WebParam;
 public class compraproductos {
 
     /**
-     * This is a sample web service operation
+     * ejemplo
      */
     @WebMethod(operationName = "hello")
     public String hello(@WebParam(name = "name") String txt) {
@@ -21,6 +21,7 @@ public class compraproductos {
 
     /**
      * Web service operation
+     * Programa para comprar productos
      */
     @WebMethod(operationName = "comprasProductos")
     public String comprasProductos(@WebParam(name = "CantidadPan") int CantidadPan, @WebParam(name = "CantidadQueso") int CantidadQueso, @WebParam(name = "CantidadPlatanos") int CantidadPlatanos, @WebParam(name = "CantidadNaranjas") int CantidadNaranjas) {
